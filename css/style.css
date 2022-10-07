@@ -13,7 +13,7 @@ body {
     .container {
         max-width: 1310px;
         margin: 0 auto;
-        background-image:url(./img/bg.png);
+        background-image:url(/img/bg.png);
         background-repeat: no-repeat;
         background-position-x: 80px;
         background-position-y: 100px;
@@ -149,7 +149,7 @@ main {
     
     margin-top: 15px;
     background-color: black;
-    background-image:url(./img/bg.png);
+    background-image:url(/img/bg.png);
     background-repeat: no-repeat;
     background-size: 110%;
 }
@@ -187,12 +187,12 @@ main {
 }
 .box1 {
     align-content: center;
-    background-image: url(./img/grid-bg.png);
+    background-image: url(/img/grid-bg.png);
     background-repeat: no-repeat;
 }
 .box1 h2 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-image: url(./img/grid-bg1.png);
+    background-image: url(/img/grid-bg1.png);
     background-repeat: no-repeat;
     background-position: center;
     line-height: 200%;
@@ -215,12 +215,12 @@ main {
 }
 .box2 {
     align-content: center;
-    background-image: url(./img/grid-bg.png);
+    background-image: url(/img/grid-bg.png);
     background-repeat: no-repeat;
 }
 .box2 h2 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-image: url(./img/grid-bg1.png);
+    background-image: url(/img/grid-bg1.png);
     background-repeat: no-repeat;
     background-position: center;
     line-height: 200%;
@@ -242,12 +242,12 @@ main {
 }
 .box3 {
     align-content: center;
-    background-image: url(./img/grid-bg.png);
+    background-image: url(/img/grid-bg.png);
     background-repeat: no-repeat;
 }
 .box3 h2 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-image: url(./img/grid-bg1.png);
+    background-image: url(/img/grid-bg1.png);
     background-repeat: no-repeat;
     background-position: center;
     line-height: 200%;
@@ -270,12 +270,12 @@ main {
 }
 .box4 {
     align-content: center;
-    background-image: url(./img/grid-bg.png);
+    background-image: url(/img/grid-bg.png);
     background-repeat: no-repeat;
 }
 .box4 h2 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-image: url(./img/grid-bg1.png);
+    background-image: url(/img/grid-bg1.png);
     background-repeat: no-repeat;
     background-position: center;
     line-height: 200%;
@@ -302,7 +302,7 @@ main {
     align-content: center;
 }
 .preorder h2 {
-    background-image: url(./img/Ellipse\ 2.png);
+    background-image: url(/img/Ellipse\ 2.png);
     background-repeat: no-repeat;   
     background-position-x: center;
     background-position-y: center;
@@ -367,7 +367,7 @@ main {
 }
 .staking {
     display: flex;
-    background-image: url(./img/Ellipse\ 2.png);
+    background-image: url(/img/Ellipse\ 2.png);
     background-repeat: no-repeat;
     background-position-y: center;
     background-position-x: 250px;
@@ -410,7 +410,7 @@ main {
 }
 .stakingbox1 {
     align-content: center;
-    background-image: url(./img/grid-bg.png);
+    background-image: url(/img/grid-bg.png);
     background-repeat: no-repeat;
     box-shadow: -5px -5px 20px rgba(255, 255, 255, 0.3), inset 30px 30px 36px rgba(21, 21, 21, 0.5);
     border-radius: 8px;
@@ -438,7 +438,7 @@ main {
 }
 .stakingbox2 {
     align-content: center;
-    background-image: url(./img/grid-bg.png);
+    background-image: url(/img/grid-bg.png);
     background-repeat: no-repeat;
     box-shadow: -5px -5px 20px rgba(255, 255, 255, 0.3), inset 30px 30px 36px rgba(21, 21, 21, 0.5);
 border-radius: 8px;
@@ -465,7 +465,7 @@ border-radius: 8px;
 }
 .stakingbox3 {
     align-content: center;
-    background-image: url(./img/grid-bg.png);
+    background-image: url(/img/grid-bg.png);
     background-repeat: no-repeat;
     box-shadow: -5px -5px 20px rgba(255, 255, 255, 0.3), inset 30px 30px 36px rgba(21, 21, 21, 0.5);
 border-radius: 8px;
@@ -493,7 +493,7 @@ border-radius: 8px;
 }
 .stakingbox4 {
     align-content: center;
-    background-image: url(./img/grid-bg.png);
+    background-image: url(/img/grid-bg.png);
     background-repeat: no-repeat;
     box-shadow: -5px -5px 20px rgba(255, 255, 255, 0.3), inset 30px 30px 36px rgba(21, 21, 21, 0.5);
 border-radius: 8px;
@@ -568,7 +568,7 @@ border-radius: 8px;
 }
 .referal-main {
     display: flex;
-    background-image: url(./img/Ellipse\ 2.png);
+    background-image: url(/img/Ellipse\ 2.png);
     background-repeat: no-repeat;
     background-position-y: center;
     background-position-x: 150px;
@@ -598,9 +598,10 @@ border-radius: 8px;
     display: grid;
     grid-template-columns: repeat(2, 554px);
     margin-top:150px;
-    grid-gap: 1px;
     margin-left: 25px;
     margin-right: 25px;
+    grid-gap: 15px;
+    padding-bottom: 25px;
 }
 .referalbox1 {
     background: linear-gradient(130.66deg, rgba(255, 255, 255, 0.3) -19.06%, rgba(255, 255, 255, 0) 31.37%), #000000;
@@ -760,10 +761,10 @@ border-radius: 8px;
     color: #FF3333;
 }
 .promomain h1::before {
-    content: url(./img/promoh1.png);
+    content: url(/img/promoh1.png);
 }
 .promomain h1::after {
-    content: url(./img/promoh1.png);
+    content: url(/img/promoh1.png);
 }
 .faststart-main h2{
     display: flex;
