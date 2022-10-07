@@ -13,7 +13,7 @@ body {
     .container {
         max-width: 1310px;
         margin: 0 auto;
-        background-image:url(/img/bg.png);
+        background-image:url(../img/bg.png);
         background-repeat: no-repeat;
         background-position-x: 80px;
         background-position-y: 100px;
