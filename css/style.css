@@ -4,7 +4,6 @@ body {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        min-height: 100vh;
 }
     header{
         
@@ -15,8 +14,9 @@ body {
         margin: 0 auto;
         background-image:url(../img/bg.png);
         background-repeat: no-repeat;
-        background-position-x: 80px;
-        background-position-y: 100px;
+        background-position-x: center;
+        background-position-y: center;
+        background-size: 120%;
     
     }
 .header-container {
@@ -149,7 +149,7 @@ main {
     
     margin-top: 15px;
     background-color: black;
-    background-image:url(/img/bg.png);
+    background-image:url(../img/bg.png);
     background-repeat: no-repeat;
     background-size: 110%;
 }
@@ -179,20 +179,22 @@ main {
 .grid-target {
     justify-content: space-around;
     display: grid;
-    grid-template-rows: 282px 100px;
     grid-template-columns: repeat(4, 319px);
+    
     margin-top:110px;
-    grid-gap: 15px;
+    grid-gap: 40px;
 
 }
+
 .box1 {
     align-content: center;
-    background-image: url(/img/grid-bg.png);
+    background: linear-gradient(130.66deg, rgba(255, 255, 255, 0.3) -19.06%, rgba(255, 255, 255, 0) 31.37%), #000000;
+    box-shadow: -5px -5px 20px rgba(0, 0, 0, 0.3), inset 30px 30px 36px rgba(21, 21, 21, 0.5);
     background-repeat: no-repeat;
 }
 .box1 h2 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-image: url(/img/grid-bg1.png);
+    background-image: url(../img/grid-bg1.png);
     background-repeat: no-repeat;
     background-position: center;
     line-height: 200%;
@@ -215,12 +217,13 @@ main {
 }
 .box2 {
     align-content: center;
-    background-image: url(/img/grid-bg.png);
+    background: linear-gradient(130.66deg, rgba(255, 255, 255, 0.3) -19.06%, rgba(255, 255, 255, 0) 31.37%), #000000;
+    box-shadow: -5px -5px 20px rgba(0, 0, 0, 0.3), inset 30px 30px 36px rgba(21, 21, 21, 0.5);
     background-repeat: no-repeat;
 }
 .box2 h2 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-image: url(/img/grid-bg1.png);
+    background-image: url(../img/grid-bg1.png);
     background-repeat: no-repeat;
     background-position: center;
     line-height: 200%;
@@ -242,12 +245,13 @@ main {
 }
 .box3 {
     align-content: center;
-    background-image: url(/img/grid-bg.png);
+    background: linear-gradient(130.66deg, rgba(255, 255, 255, 0.3) -19.06%, rgba(255, 255, 255, 0) 31.37%), #000000;
+    box-shadow: -5px -5px 20px rgba(0, 0, 0, 0.3), inset 30px 30px 36px rgba(21, 21, 21, 0.5);
     background-repeat: no-repeat;
 }
 .box3 h2 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-image: url(/img/grid-bg1.png);
+    background-image: url(../img/grid-bg1.png);
     background-repeat: no-repeat;
     background-position: center;
     line-height: 200%;
@@ -270,12 +274,13 @@ main {
 }
 .box4 {
     align-content: center;
-    background-image: url(/img/grid-bg.png);
+    background: linear-gradient(130.66deg, rgba(255, 255, 255, 0.3) -19.06%, rgba(255, 255, 255, 0) 31.37%), #000000;
+    box-shadow: -5px -5px 20px rgba(0, 0, 0, 0.3), inset 30px 30px 36px rgba(21, 21, 21, 0.5);
     background-repeat: no-repeat;
 }
 .box4 h2 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-image: url(/img/grid-bg1.png);
+    background-image: url(../img/grid-bg1.png);
     background-repeat: no-repeat;
     background-position: center;
     line-height: 200%;
@@ -302,7 +307,7 @@ main {
     align-content: center;
 }
 .preorder h2 {
-    background-image: url(/img/Ellipse\ 2.png);
+    background-image: url(../img/Ellipse\ 2.png);
     background-repeat: no-repeat;   
     background-position-x: center;
     background-position-y: center;
@@ -338,7 +343,7 @@ main {
 }
 .grafic {
     margin-top: 150px;
-    margin-left: 250px;
+    margin-left: 55px;
 }
 .grafic h3 {
     text-align: center;
@@ -367,11 +372,11 @@ main {
 }
 .staking {
     display: flex;
-    background-image: url(/img/Ellipse\ 2.png);
+    background-image: url(../img/Ellipse\ 2.png);
     background-repeat: no-repeat;
     background-position-y: center;
-    background-position-x: 250px;
-    background-size: 60%;
+    background-position-x: center;
+    background-size: 100%;
 
 }
 .mining{
@@ -402,7 +407,6 @@ main {
 .staking-grid {
     justify-content: space-around;
     display: grid;
-    grid-template-rows: 282px 100px;
     grid-template-columns: repeat(4, 319px);
     margin-top:110px;
     grid-gap: 15px;
@@ -410,7 +414,7 @@ main {
 }
 .stakingbox1 {
     align-content: center;
-    background-image: url(/img/grid-bg.png);
+    background-image: url(../img/grid-bg.png);
     background-repeat: no-repeat;
     box-shadow: -5px -5px 20px rgba(255, 255, 255, 0.3), inset 30px 30px 36px rgba(21, 21, 21, 0.5);
     border-radius: 8px;
@@ -438,7 +442,7 @@ main {
 }
 .stakingbox2 {
     align-content: center;
-    background-image: url(/img/grid-bg.png);
+    background-image: url(../img/grid-bg.png);
     background-repeat: no-repeat;
     box-shadow: -5px -5px 20px rgba(255, 255, 255, 0.3), inset 30px 30px 36px rgba(21, 21, 21, 0.5);
 border-radius: 8px;
@@ -465,7 +469,7 @@ border-radius: 8px;
 }
 .stakingbox3 {
     align-content: center;
-    background-image: url(/img/grid-bg.png);
+    background-image: url(../img/grid-bg.png);
     background-repeat: no-repeat;
     box-shadow: -5px -5px 20px rgba(255, 255, 255, 0.3), inset 30px 30px 36px rgba(21, 21, 21, 0.5);
 border-radius: 8px;
@@ -493,7 +497,7 @@ border-radius: 8px;
 }
 .stakingbox4 {
     align-content: center;
-    background-image: url(/img/grid-bg.png);
+    background-image: url(../img/grid-bg.png);
     background-repeat: no-repeat;
     box-shadow: -5px -5px 20px rgba(255, 255, 255, 0.3), inset 30px 30px 36px rgba(21, 21, 21, 0.5);
 border-radius: 8px;
@@ -568,7 +572,7 @@ border-radius: 8px;
 }
 .referal-main {
     display: flex;
-    background-image: url(/img/Ellipse\ 2.png);
+    background-image: url(../img/Ellipse\ 2.png);
     background-repeat: no-repeat;
     background-position-y: center;
     background-position-x: 150px;
@@ -761,10 +765,10 @@ border-radius: 8px;
     color: #FF3333;
 }
 .promomain h1::before {
-    content: url(/img/promoh1.png);
+    content: url(../img/promoh1.png);
 }
 .promomain h1::after {
-    content: url(/img/promoh1.png);
+    content: url(../img/promoh1.png);
 }
 .faststart-main h2{
     display: flex;
@@ -1168,6 +1172,7 @@ border-radius: 8px;
     background-position-x: center;
     background-position-y: center;
 }
+
 .roadmapbox12 {
     background: linear-gradient(130.66deg, rgba(255, 255, 255, 0.3) -19.06%, rgba(255, 255, 255, 0) 31.37%), #000000;
     box-shadow: -5px -5px 20px rgba(0, 0, 0, 0.3), inset 30px 30px 36px rgba(21, 21, 21, 0.5);
@@ -1413,7 +1418,8 @@ phone landscape & smaller
     .grid-target {
         justify-content: space-around;
         grid-template-columns: repeat(2, 250px);
-        grid-gap: 60px;}
+        grid-gap: 60px;
+    }
     .packages-grid {
         justify-content: space-around;
         grid-template-columns: repeat(2, 250px);
@@ -1457,5 +1463,323 @@ phone landscape & smaller
 
  } 
  @media all and (max-width: 480px) {
+    .header-container {
+        display: block ;
+    }
+    .headlogo-vipcoin{
+        margin-top: 16px;
+        margin-left: 16px;
+        height: 81px;
+    }
+    .nav {
+        display: block;
+        margin-left: 20px;
+        margin-top: 16px;
+    }
+    .contacts {
+        display: flex;
+        margin-top: 31px;
+        margin-left: 19px;
+    }
+    .headlogin {
+        margin-top: 33px;
+        margin-left: 19px;
+    }
+    .container h2, .reg,.bets {
+        display: none;
+    }
+    .ourtarget {
+        margin-top: 0px;
+    }
+    .target h2 {
+        font-weight: 500;
+        font-size: 50px;
+        line-height: 100%;
+    }
+    .target p{
+        margin-top: 10px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 130%;
+    }
+    .grid-target {
+        grid-template-columns:repeat(1,319px)
+    }
+    .preorder {
+        display: none;
+    }
+    .kurs-container{
+        display: block;
+    }
+    .usdt {
+        margin-left: 20px;
+        margin-top: 34px;
+    }
+    .grafic img {
+        display: block;
+        max-width: 100%;
+    }
+    .grafic {
+        margin-top: 25px;
+        margin-left: 20px;
+    }
+    .grafic h3 {
+        max-width: 100%;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 130%;
+        text-align: left;
+    }
+    .staking-container {
+        display: block;
+    }
+    .staking {
+        display: block;
+    }
+    .mining {
+        margin-left: 100px;
+        padding-top: 60px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 130%;
+    }
+    .mutual-staking {
+        max-width: 100%;
+        margin-top: 20px;
+        margin-left: 10px;
+        font-weight: 500;
+        font-size: 50px;
+        line-height: 130%;
+        text-align: center;
 
+    }
+    .accrual{
+        max-width: 100%;
+        margin-top: 10px;
+        margin-left: 40px;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 130%;
+    }
+    .staking-grid {
+        grid-template-columns:repeat(1,319px);
+        padding-bottom: 40px;
+    }
+    .packages h2 {
+    margin-left: 30px;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 130%;
+    align-items: center;
+    text-align: center;
+    }
+    .packages p {
+    max-width: 100%;
+    margin-left: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    align-items: center;
+    text-align: center;
+    }
+    .packages-grid {
+        grid-template-columns:repeat(1,220px);
+    }
+    .referal-main {
+        display: block;
+    }
+    .referal-main h2 {
+        text-align: center;
+        max-width: 100%;
+        margin-left: 15px;
+        margin-top: 60px;
+        font-weight: 500;
+        font-size: 50px;
+        line-height: 130%;
+    }
+    .referal-main p {
+        text-align: center;
+        max-width: 100%;
+        display: block;
+        margin-top: 10px;
+        margin-left: 10px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 130%;
+    }
+    .referal-grid {
+        grid-template-columns: repeat(1,350px)
+    }
+    .promomain h1::before {
+    display: none;
+    }
+    .promomain h1::after {
+        display: none;
+    }
+    .promomain h1 {
+        margin-top: 58px;
+        margin-left: 45px;
+        max-width: 100%;
+        font-weight: 500;
+        font-size: 70px;
+        line-height: 130%;
+    }
+    .faststart-main img {
+        display: block;
+        max-width: 100%;
+    }
+    .faststart-main h2 {
+        display: block;
+        max-width: 100%;
+        margin-left: 20px;
+        margin-top: 50px;
+        font-weight: 500;
+        font-size: 50px;
+        line-height: 130%;
+    }
+    .faststart-main p{
+        margin-left: 5px;
+        margin-top: 15px;
+        max-width: 100%;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 130%;
+    }
+    .faststart-container {
+        margin-top: 5px;
+    }
+    .faststart-gridmain h2 {
+        margin-left: 5px;
+        max-width: 98%;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 130%;
+        align-items: center;
+    }   
+    .faststart-grid {
+        grid-gap: 18px;
+        grid-template-columns: repeat(1,215px);
+    }
+    .heat-main h2{
+        display: block;
+        max-width: 100%;
+        margin-left: 20px;
+        margin-top: 50px;
+        font-weight: 500;
+        font-size: 50px;
+        line-height: 130%;
+    }
+    .heat-main p {
+        margin-left: 5px;
+        margin-top: 15px;
+        max-width: 100%;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 130%;
+    }
+    .heat-container {
+        margin-top: 55px;
+    }
+    .heat-grid {
+        margin-top: 45px;
+        margin-right: 10px;
+        margin-bottom: 47px;
+        grid-gap: 18px;
+        grid-template-columns: repeat(1,215px);
+    }
+    .heatgridmain h1, .teslagridmain h1{
+        margin-left: 35px;
+        margin-top: 65px;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 120%;
+        letter-spacing: 0.02em;
+    }
+    .heatgridmain img,.teslagridmain img {
+        margin-left: 5px;
+        max-width: 97%;
+    }
+    .heatgridmain h2, .heatgridmain h3, .heatgridmain h4,.teslagridmain h2,.teslagridmain h3,.teslagridmain h4 {
+        max-width: 100%;
+        margin-left: 40px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 130%;
+    }
+    .tesla-main h2 {
+        display: block;
+        max-width: 100%;
+        margin-left: 20px;
+        margin-top: 50px;
+        font-weight: 500;
+        font-size: 50px;
+        line-height: 130%;
+    }
+    .tesla-main p {
+        margin-left: 5px;
+        margin-top: 15px;
+        max-width: 100%;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 130%;
+    }
+    .tesla-container {
+        margin-top: 55px;
+
+    }
+    .tesla-grid {
+
+        max-width: 100%;
+        margin-top: 45px;
+        margin-right: 60px;
+        margin-bottom: 47px;
+        grid-gap: 18px;
+        grid-template-columns: repeat(1,215px);
+    }
+    .roadmap-main h2 {
+        padding-top: 60px;
+        margin-left: 68px;
+        font-weight: 500;
+        font-size: 50px;
+        line-height: 130%;
+    }
+    .roadmap-main p {
+        margin-top: 10px;
+        margin-left: 38px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 130%;
+        text-align: center;
+    }
+    .roadmap-grid {
+        grid-template-columns: repeat(1,250px);
+        grid-template-rows: repeat(15,260px);
+    }
+    .roadmapbox11 h2 {
+        margin-top: 30px;
+        max-width: 100%;
+    }
+    .end-main h2 {
+        margin-left: 45px;
+        padding-top: 55px;
+        font-weight: 500;
+        font-size: 35px;
+        line-height: 130%;
+    }
+    .lower-reg a {
+        margin-left: 25px;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .lower-info p {
+        margin-left: 25px;
+        margin-top: 45px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 180%;
+    }
+    .end-lower,.lowerlogo-vipcoin,.lower-nav,.lower-contacts,.lowerlogin{
+        display: none;
+    }
 }
