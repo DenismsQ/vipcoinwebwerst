@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VipCoin</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pushbar.js@1.0.0/src/pushbar.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/reset.css">
 </head>
@@ -16,6 +19,58 @@
             <div class="headlogo-vipcoin">
                 <a href=""></a>
                 <img src="./img/logo-vipcoin.png" alt="" class="logo1">
+            </div>
+            <div class="push">
+            <div data-pushbar-id="mypushbar1" data-pushbar-direction="left" class="pashop">
+                <div class="opened">
+                <ul class="navmini">
+                <span data-pushbar-close></span>
+                    <li>О НАС</li>
+                    <li>
+                        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+                            ЦЕЛИ
+                        </a>
+                        
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+                            СТЕЙКИНГ
+                        </a>
+                        
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+                            ПАКЕТЫ
+                        </a>
+                        
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+                            РЕФЕРАЛЬНАЯ СИСТЕМА
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+                            ПРОМО
+                        </a>
+                        
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+                            ROAD MAP
+                        </a>
+                    </li>
+            </ul>
+            </div>
+        </div>
+            <div class="pushbar_main_content">
+                <span data-pushbar-target="mypushbar1">
+                    О НАС
+                </span>
+                <span data-pushbar-target="mypushbar2">
+                    КОНТАКТЫ
+                </span>
+                </div>
             </div>
             <ul class="nav">
                 <li>
@@ -53,6 +108,36 @@
                     </a>
                 </li>
         </ul>
+        <div data-pushbar-id="mypushbar2" data-pushbar-direction="top" class="pashtop">
+            <ul class="contactsmini">
+                <span data-pushbar-close></span>
+                <li> 
+                    <a href="https://www.instagram.com">
+                        <img src="./img/logo-inst.svg" alt="">
+                    </a>    
+                </li>
+                <li>
+                    <a href="https://twitter.com/?lang=ru">
+                        <img src="./img/logo-twitter.svg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://vk.com/feed">
+                        <img src="./img/logo-vk.svg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/?gl=KZ">
+                        <img src="./img/logo-yuotube.svg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://ok.ru">
+                        <img src="./img/logo-ok.svg" alt="">
+                    </a>
+                </li>
+            </ul>
+        </div>
         <ul class="contacts">
             <li> 
                 <a href="https://www.instagram.com">
@@ -80,7 +165,7 @@
                 </a>
             </li>
         </ul>
-        <div class="headlogin">
+        <div class="headlogin animate__animated animate__pulse">
             <a href="">
                 <img src="./img/login.svg" alt="">
                 Войти
@@ -279,36 +364,31 @@
 Каждый день вам начисляется процент в VIP-Coin. За месяц вы получите 290 VIP-Coin (1 VC=1 USDT).
                     </p>
                 </div>
-                <div class="packages-grid">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
                     <div class="packagesbox1">
                         <img src="./img/packages1.png" alt="">
-
-                        <!-- <img src="/img/vipc.png" alt="">
-                        <h2>
-                            100
-                        </h2>
-                        <h3>
-                            26% в месяц 
-                            <span class="p1">
-                                Срок 200 дн
-                            </span>
-                        </h3>
-                        <p>
-                            уже доступно!
-                        </p> -->
                     </div>
+                    </div>
+                    <div class="swiper-slide">
                     <div class="packagesbox2">
                         <img src="./img/packages2.png" alt="">
-
                     </div>
+                    </div>
+                    <div class="swiper-slide">
                     <div class="packagesbox3">
                         <img src="./img/packages3.png" alt="">
-
                     </div>
+                    </div>
+                    <div class="swiper-slide">
                     <div class="packagesbox4">
                         <img src="./img/packages4.png" alt="">
-
+                        </div>
+                        </div>
                     </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
                 </div>
             </div>
         </section>
@@ -322,7 +402,9 @@
                         стейкинг взаимный, потому что вы получаете проценты от депозитов ваших партнеров
                     </p>
                 </div>
-                <div class="referal-grid">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"> 
                     <div class="referalbox1">
                         <h2>
                             Бонус с продаж
@@ -341,7 +423,6 @@
                             <span class="r11">
                                 Вы получаете вознаграждения
                                 от депозитов партнеров вплоть до 6 линии
-
                             </span>
                         </h5>
                         <p>
@@ -349,6 +430,8 @@
                             Пример: ваш реферал на первой линии сделал депозит в 10 000 USDT. Вы мгновенно получаете 400 R-Coin.
                         </p>
                     </div>
+                </div>
+                <div class="swiper-slide"> 
                     <div class="referalbox2">
                         <h2>
                             Взаимный стейкинг
@@ -369,7 +452,6 @@
                                 Вы получаете ежедневный процент
                                 от депозитов партнеров вплоть
                                 до 6 линии
-
                             </span>
                         </h5>
                         <p>
@@ -378,6 +460,9 @@
                         </p>
                     </div>
                 </div>
+                </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
             </div>
         </section>
         <section class="promo-section">
@@ -793,5 +878,8 @@
             </div>
         </section>
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/pushbar.js@1.0.0/src/pushbar.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
